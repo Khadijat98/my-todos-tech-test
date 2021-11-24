@@ -1,0 +1,13 @@
+@import "_variables.scss";
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav__logo {
+  color: $fourth-colour;
+  font-size: 24px;
+  font-weight: 500;
+}

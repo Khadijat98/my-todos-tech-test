@@ -1,0 +1,43 @@
+.task__header {
+  position: absolute;
+  width: 36px;
+  height: 23px;
+  left: 11px;
+  top: 499px;
+
+  color: $fourth-colour;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.task__input {
+  position: absolute;
+  width: 350px;
+  height: 60px;
+  left: 10px;
+  top: 386px;
+
+  background: $second-colour;
+  border: 1px dashed $third-colour;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+.task__complete {
+  position: absolute;
+  width: 284px;
+  height: 23px;
+  left: 10px;
+  top: 543px;
+
+  font-family: Jost;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+
+  color: $third-colour;
+}

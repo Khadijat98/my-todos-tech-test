@@ -1,1 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+@import "assets/styles/nav";
+@import "assets/styles/home";
+@import "assets/styles/typography";
+@import "assets/styles/variables";
+@import "assets/styles/buttons";
+@import "assets/styles/tasks";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: $first-colour;
+}

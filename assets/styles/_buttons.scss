@@ -1,0 +1,31 @@
+.btn__reset {
+  background-color: #e1a0a0;
+  background-image: linear-gradient(180deg, #e1a0a0 #e58181);
+  box-shadow: 0 10px 40px #6B3838;
+  border-radius: 7px;
+  width: 120px;
+  height: 50px;
+  color: $fourth-colour;
+  font-size: 16px;
+  font-weight: bold;
+  border: transparent;
+}
+
+.btn__reset:hover {
+  background-image: linear-gradient(180deg, #E2C1C1 #EA8282);
+}
+
+.btn__tasks {
+  position: absolute;
+  left: 82.48%;
+  right: 12.72%;
+  top: 46%;
+  bottom: 51%;
+  border-radius: 50%;
+  border: transparent;
+  padding: 0px 7px;
+  background: #E68181;
+  font-size: 16px;
+  font-weight: bold;
+}
+

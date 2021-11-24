@@ -12,8 +12,8 @@
 // empty box next to tasks- users can fill these buttons with ticks which changes the page to add a banner with a delete button
 
 // Query selectors
-const resetPage = document.querySelector(".nav__reset");
-const taskSubmit = document.querySelector(".task__adder");
+const resetPage = document.querySelector(".btn__reset");
+const taskSubmit = document.querySelector(".btn__tasks");
 
 const handleSubmit = () => {
 
