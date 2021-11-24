@@ -14,9 +14,29 @@
 // Query selectors
 const resetPage = document.querySelector(".btn__reset");
 const taskSubmit = document.querySelector(".btn__tasks");
+const taskInput = document.querySelector(".task__input");
+const taskComplete = document.querySelector(".task__complete");
+const taskAdded = document.querySelector(".task__added");
 
 const handleSubmit = () => {
-
+  // when user clicks add button
+  // task complete message disappears
+  taskComplete.classList.add("hide");
+  // added task appears
+  // more tasks added will stack
+  let task = taskInput.value;
+  taskAdded.innerHTML += `<li>${task}</li>`;
+  taskAdded.classList.add("show");
 }
 
 taskSubmit.addEventListener("click", handleSubmit);
+
+const handleReset = () => {
+  // reset back to default
+  taskInput.value = "";
+  taskComplete.classList.remove("hide");
+  taskAdded.classList.remove("show");
+  taskAdded.innerHTML = "";
+}
+
+resetPage.addEventListener("click", handleReset);

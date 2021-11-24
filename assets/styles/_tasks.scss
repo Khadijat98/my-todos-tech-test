@@ -6,11 +6,9 @@
   top: 499px;
 
   color: $fourth-colour;
-  font-family: Jost;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 23px;
 }
 
 .task__input {
@@ -24,6 +22,7 @@
   border: 1px dashed $third-colour;
   box-sizing: border-box;
   border-radius: 7px;
+  color: $fourth-colour;
 }
 
 .task__complete {
@@ -33,11 +32,26 @@
   left: 10px;
   top: 543px;
 
-  font-family: Jost;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 23px;
-
   color: $third-colour;
+}
+
+.task__complete.hide {
+  display: none;
+}
+
+.task__added.show {
+  position: absolute;
+  left: 21.68%;
+  right: 24.66%;
+  top: 60%;
+  bottom: 43%;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: $fourth-colour;
+
 }
