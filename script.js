@@ -27,6 +27,7 @@ const handleSubmit = () => {
   let task = taskInput.value;
   taskAdded.innerHTML += `<li>${task}</li>`;
   taskAdded.classList.add("show");
+  // add tracker for tasks
 }
 
 taskSubmit.addEventListener("click", handleSubmit);
